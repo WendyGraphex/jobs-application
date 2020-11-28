@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <reference name="top">   
+      <block name="/languages/list"/>     
+      <block name="/search_engine/searchRequest"/> 
+      <block name="/customers_newsletter/signin" url="/"/>    
+      <block name="/shops_currency/selectListCurrency"/>      
+      <block name="/CMS_pages/nodeMenuFrom" node="menu-top" id="top"/>          
+    </reference>   
+    <reference name="navigation-menu-top">
+      <block name="/CMS_pages/nodeMenuFrom" node="menu-top" id="top" tpl="menu-top.tpl"/>
+    </reference>
+    <reference name="navigation-menu-left">
+      <block name="/CMS_pages/nodeMenuFrom" node="menu-left" id="left" tpl="menu-left.tpl"/>
+    </reference> 
+    <reference name="navigation-menu-right">
+      <block name="/CMS_pages/nodeMenuFrom" node="menu-right" id="right" tpl="menu-right.tpl"/>
+     <!-- <block name="/products_category/menu" id="left-cat"/>-->
+    </reference> 
+    <reference name="navigation-menu-img">
+      <block name="/CMS_pages/nodeMenuFrom" node=" menu-img-bottom" id="bottom-img" />
+    </reference> 
+     <reference name="navigation-menu-bottom">
+      <block name="/CMS_pages/nodeMenuFrom" node="menu-bottom" id="bottom" tpl="menu-bottom.tpl" />
+    </reference>
+     <reference name="navigation-menu-bottom-top">
+      <block name="/CMS_pages/nodeMenuFrom" node="menu-bottom-top" id="bottom-top" tpl="menu-bottom-top.tpl" />
+    </reference>
+    
+    <reference name="content">
+      <block name="/CMS_pages/nodeMenuFrom" node="menu-top" id="top"/>
+    </reference>    
+     
+    <reference name="bottom">
+        <block name="/CMS_pages/nodeMenuFrom" node="menu-bottom" separator="|"/> 
+    </reference>   
+    <reference name="tracking">
+    </reference>  
+</layout>
+

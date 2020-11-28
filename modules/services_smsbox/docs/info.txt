@@ -1,0 +1,40 @@
+http://fr.smsbox.net/
+ecoenvironnement
+mdp dadouche
+
+http://s7.phingoocrm.com/crm
+login: jeremie@nassiador.com
+password: jeremie
+
+Bonjour Monsieur Mallet,
+
+Merci d'avoir contacté le support SMSBOX.
+
+Vous pouvez ajouter le paramètre "debug=1". Celui-ci empêche tout traitement de l'API. Elle retourne simplement la liste des paramètres reçus en entrée sous forme de "query string".
+
+Si vous souhaitez effectuer des tests proches des conditions réelles (avec accusés simulés et donc callbacks), nous avons mis en place un routage spécifique sur la tranche +999 récemment.
+
+Cela fonctionne ainsi (le nombre de chiffres est libre, du moment que le numéro complet comprend entre 7 et 16 chiffres) :
+
+- +9990XXXXXX[X] : retourne un statut 9 (Message transmis), puis 0 (Message reçu)
+- +9991XXXXXX[X] : retourne un statut 9, puis 1 (Échec de la transmission)
+- +9992XXXXXX[X] : retourne un statut 9, puis 2 (Message rejeté)
+- +9993XXXXXX[X] : retourne un statut 9, puis 3 (Mobile de destination inactif)
+- +9994XXXXXX[X] : retourne un statut 9, puis 4 (Mobile de destination ne répond pas)
+- +9995XXXXXX[X] : retourne un statut 9, puis 5 (Erreur lors de la réception)
+- +9996XXXXXX[X] : retourne un statut 9, puis 6 (Mobile de destination saturé)
+- +9997XXXXXX[X] : retourne un statut 9, puis 7 (Numéro de destination inconnu)
+- +9998XXXXXX[X] : retourne un statut 9, puis 8 (Message non-routable)
+- +9999XXXXXX[X] : retourne un statut -3 (SMS recrédité)
+
+Nous avons appliqué un tarif de 0.05 Crédit par SMS (soit 0.0045 € HT/SMS) expédié sur cette tranche pour votre compte.
+
+Nous restons à votre disposition pour d'éventuelles questions, remarques ou demandes complémentaires.
+
+Bien cordialement,
+L'équipe support SMSBOX
+Web : http://fr.smsbox.net
+Tél : +33 (0) 811 03 03 61
+Fax : +33 (0) 811 03 03 62
+
+http://www.ecosol.net/services/smsbox/admin/return?numero=9991611111&reference=141007980922&accuse=0&ts=1412678807

@@ -1,0 +1,5 @@
+https://github.com/paypal/PayPal-PHP-SDK/blob/master/sample/payments/RefundCapture.php
+
+
+
+https://developer.paypal.com/docs/api/payments.payouts-batch/v1/

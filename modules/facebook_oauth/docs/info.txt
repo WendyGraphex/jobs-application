@@ -1,0 +1,7 @@
+https://developers.facebook.com/docs/php/gettingstarted
+https://developers.facebook.com/docs/php/howto/example_facebook_login
+https://developers.facebook.com 
+
+Callbacks
+https://graphex.ewebsolutionskech-dev.com/google/oauth/callback/employer
+https://graphex.ewebsolutionskech-dev.com/google/oauth/callback/employee

@@ -1,0 +1,128 @@
+
+@media screen and (max-width:750px)
+{
+    #body,#filters
+    {
+        width: auto;
+    }
+    #left
+    {
+        width: 250px;
+    }
+    #banner
+    {
+        float: none;
+        width: auto;
+    }
+    .signin-b
+    {
+        float: none;
+        width: 100%;
+    }
+    .site-container
+    {
+        overflow:hidden;
+    }
+    .gallery-top
+    {
+        display: none;
+    }
+    .middle-pusher
+    {
+       
+        transform :translateX(0px);
+        transition-duration: 0.3s; 
+    }
+    .pub
+    {
+        display: none;
+    }
+    .menu-left
+    {
+        position:absolute;
+        left:0px;
+        top:0px;
+        background:#0A4002;
+        width:250px;
+        transform: translateX(-250px);
+        overflow:scroll;
+        -webkit-overflow-scrolling:touch;
+    }
+    .header__icon{
+
+        position:relative;
+        width:50px;
+        height:66px;
+        cursor: pointer;
+        display:block;
+        float:left; 
+        background: #ddd;          
+    }
+    .container-list
+    {
+        position: fixed;
+    }
+    .header__icon:after {
+        content:"";
+        display:block;
+        position:absolute;
+        width:16px;
+        top:16px;
+        left:15px;
+        height:0px;
+        box-shadow : 0px 10px 0px 1px #fff , 0px 16px 0px 1px #fff, 0px 22px 0px 1px #fff;
+    }
+    .with_slidebar .middle-pusher
+    {
+        transform :translateX(250px);
+ 
+    }
+    .with_slidebar .site-cache
+    {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .navigation-top-fixed
+    {
+        z-index: 1000;
+        position: fixed; 
+        top: 0;
+        width: 100%;
+    }
+    .signin-b
+    {
+    background: #ddd;
+position: relative;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 20px;
+margin-bottom: 16px;
+    }
+    .signin-b a
+    {display: inline-block;
+padding: 10px;
+background: #f2f2f2;
+color: #333;
+margin: 0 auto;}
+    .signin-b h4
+    {
+        float: none;
+    }
+    .handel-menu
+    {
+        display: block;
+    }
+    #navigation-menu ul
+    {
+        max-height: 0px;
+    }
+    .showing-nav
+    {
+       
+    }
+    
+}

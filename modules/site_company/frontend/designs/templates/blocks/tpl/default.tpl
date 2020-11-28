@@ -1,0 +1,1 @@
+{if $field}{$company->get($field)}{else}{$company->get('name')}{/if}

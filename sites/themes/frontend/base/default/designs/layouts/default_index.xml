@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <reference name="top">   
+      <block  name="/languages/list"/>       
+    </reference>   
+    <reference name="left">       
+    </reference>
+    <reference name="right">          
+    </reference>
+    <reference name="bottom">
+    </reference>   
+    <reference name="tracking">
+    </reference>  
+</layout>
+

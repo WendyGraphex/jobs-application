@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>employees work</title>
+    <type>employees</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the employees work.</description>
+    <author>F.Mallet</author>
+</module>

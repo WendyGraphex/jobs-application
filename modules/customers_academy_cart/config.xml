@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>Customers academy cart</title>
+    <type>academy</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the customers academy cart actions.</description>
+    <author>F.Mallet</author>    
+</module> 

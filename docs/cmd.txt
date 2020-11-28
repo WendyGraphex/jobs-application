@@ -1,0 +1,17 @@
+git remote add origin  ssh://graphexprod@163.172.61.168:2655/home/graphexprod/git/project1.git
+
+DROP DATABASE site_graphex; 
+
+CREATE DATABASE site_graphex; 
+
+
+
+wget http://prod.graphextech.com/docs/031120_site_graphex.sql
+wget http://prod.graphextech.com/docs/031120_notation.sql
+wget http://prod.graphextech.com/docs/sites_prod.sql
+
+
+mysql -uroot -p --one-database site_graphex <  031120_site_graphex.sql 
+
+
+2o!Z0K@leMm|

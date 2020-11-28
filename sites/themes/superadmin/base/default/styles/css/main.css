@@ -1,0 +1,860 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;	
+    text-align: left;
+    background: -moz-linear-gradient(top, rgba(169,200,228,1) 0%, rgba(255,255,255,1) 7%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,200,228,1)), color-stop(7%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(169,200,228,1) 0%,rgba(255,255,255,1) 7%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(169,200,228,1) 0%,rgba(255,255,255,1) 7%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(169,200,228,1) 0%,rgba(255,255,255,1) 7%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(169,200,228,1) 0%,rgba(255,255,255,1) 7%);
+min-height: 660px;
+}
+.loading
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+tr.selected {
+    border: 1px solid #000000;
+}
+
+div.selected {
+    border: 1px solid #000000;
+}
+.selected_group
+{
+    color: #fff;
+    background: #5b99bf;
+}
+
+td.in_group
+{
+ border:1px solid #ff0000;
+}
+
+#menu_dashboard  ul li{
+    display: inline; 
+}
+
+#menu_dashboard ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* text-align: center; */
+    display: inline; 
+}
+
+
+#menu-site-dashboard  ul li{
+    display: inline; 
+}
+
+#menu-site-dashboard ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* text-align: center; */
+    display: inline; 
+}
+
+.menu-site-dashboard-level0 {
+
+    list-style-type: none;    
+    display: inline; 
+}
+.menu-site-dashboard-level1 {
+    list-style-type: none;    
+    display: inline; 
+}
+
+.menu-site-dashboard-level0 ul {
+
+    list-style-type: none;    
+    display: inline; 
+}
+
+.menu-site-dashboard-level0 ul li {
+
+    list-style-type: none;    
+    display: inline-block; 
+}
+
+.menu-site-dashboard-level1 ul {
+
+    list-style-type: none;    
+    display: inline; 
+}
+
+.menu-site-dashboard-level1 ul li {
+
+    list-style-type: none;    
+    display: inline; 
+}
+
+/*========profile liste top==========*/
+.profile-list{
+    list-style: none;
+    float: right;
+}
+.tabs-home
+{
+    clear: both;
+}
+.img-profile
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.tabs-sites
+{
+    line-height: 41px;
+ 
+}
+.profile-list > li
+{
+    float: left;
+}
+.content-profile
+{
+    background: none repeat scroll 0 0 #f9f9f9;
+    border: 1px solid #f2f2f2;
+    position: absolute;
+    top: 32px;
+    width: 100%;
+    z-index: 999;
+}
+.btn-user,
+.sort_asc
+{
+    background: #FFF;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    position: relative;
+    margin-right: 3px;
+}
+
+.sort_asc
+{
+    margin-left: 0px;
+}
+.name-user,
+.last-connexion,
+.user-function
+{
+    line-height: 32px;
+    margin-right: 16px;
+}
+.menu-profile
+{
+    list-style: none outside none;
+    padding: 0;
+}
+.menu-profile a
+{
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    display: inline-block;
+    margin-top: 2px;
+    padding-bottom: 6px;
+   /* padding-left: 6px;*/
+    padding-top: 6px;
+    text-decoration: none;
+    width: 100%;
+}
+.menu-profile a:hover
+{
+    background:#7abcdd;
+}
+.color
+{
+    display: block;
+    float: left;
+    vertical-align: middle;
+    width: 15px;
+}
+.icon
+{
+    vertical-align: middle;
+    margin: 0px 2px ;
+}
+.menu-profile span
+{
+    margin-left: 10px;
+    line-height: 24px;
+}
+#dashboard-tabs
+{
+    clear: both;
+}
+/*==========list menu======*/
+
+.list-menu-l2 > li,
+.menu-admin > li > div
+{
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -e-display: inline-block;
+    padding: 10px;
+}
+.menu-admin > li > div
+{
+    display: inline-table;
+    text-align: center;
+}
+.menu-admin > li > div a,
+.list-menu-l2 li a,
+.sublinks a
+
+{
+    text-decoration: none;
+    color: #333;
+}
+.menu-admin > li > div:hover,
+.list-menu-l2 li:hover
+{
+    background: none repeat scroll 0 0 #7abcdd; 
+    opacity: 0.8;
+    transition: opacity,0.4s;
+}
+h3,h2,h1,.sublinks,h4
+{
+    color:#5797de;
+    padding: 9px;
+    margin: 0px;
+    font-size: 18px;
+}
+h3,h4
+{
+    font-size: 15px;
+}
+.list-menu-l1,
+.list-menu-l2
+{
+    padding: 0px;
+}
+.sublinks{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;
+    min-width: 10%;
+}
+.next
+{
+    position: relative;
+}
+/*=========login page =============*/
+
+.login-p
+{
+    background: none repeat scroll 0 0 #ddd;
+    margin: 0 auto;
+    width: 30%;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+    box-shadow: 1px 1px 3px #000;
+}
+.login-p h3
+{
+    margin: 0px;
+    border-radius: 5px 5px 0 0;
+}
+.login-form 
+{
+    padding: 12px;
+}
+.login-form  tr
+{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.login-form  td input
+{
+    border: 1px solid #f2f2f2;
+    margin-bottom: 0;
+    padding: 3px;
+    width: 100%;
+}
+.login-form .label
+{
+    width: 44%;
+}
+.btn,
+.login-form a.enter,
+.btn-table
+{
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-image: linear-gradient(to bottom, #fff 0px, #e0e0e0 100%);
+    background-repeat: repeat-x;
+    border:1px solid #ccc;
+    text-shadow: 0 1px 0 #fff;
+
+}
+.btn:hover,
+.login-form a.enter:hover,
+.btn-table:hover
+{
+    background-image: linear-gradient(to bottom, #ddd 0px, #e0e0e0 100%); 
+}
+.enter
+{
+    float: right;
+}
+.btn-table
+{
+    
+    border: #ddd solid 1px;
+    background: #FFF;
+    color: #000;
+    margin-bottom: 4px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.login-form td.btn-login
+{
+    display: block;
+}
+.middle-login
+{
+    min-height: 670px;
+}
+/*=============list=========*/
+table.date td
+{
+    border: none;
+}
+.input-list td input,
+.input-list td input select
+{
+    border: #ddd 1px solid;
+    height: 20px;
+}
+.input-list td input select:focus,
+.input-list td input:focus
+{
+    border: #7abcdd 1px solid;
+}
+
+.tabl-list td, .tabl-list th
+{
+    border-left: 1px solid #fff;
+    padding: 0 0 0 4px;
+}
+.tabl-list td:after, .tabl-list th:after
+{
+    content: "";
+}
+.tabl-list
+{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+.tabl-list td.status
+{
+    text-align: left;
+}
+.tabl-list td.icon img
+{
+    padding: 6px;
+}
+.list-header,
+.step-table td h4
+{
+    background:  #355bac;
+    color: #fff;
+    font-weight: normal;
+    vertical-align: top;
+}
+.list-header th
+{
+    padding-top: 10px;
+}
+.input-list{
+    background: none repeat scroll 0 0 #f8f8f8;
+
+}
+.input-list td
+{
+    padding: 7px;
+
+}
+.order-rows
+{
+
+}
+table.tabl-list tr.list:nth-child(2n)
+{
+    background-color: #f5f5f5;
+}
+/*
+table.tabl-list tr.list:nth-child(2n+1)
+{
+    background-color: #ededed;
+}
+*/
+table.tabl-list tr.list:hover,
+.tab-user-groups td:hover,.add-user:hover,
+.add_in_group:hover,
+.variable:hover
+{
+    background:  #a0c8ea;
+}
+
+.action-user
+{
+    min-width: 123px;
+}
+tr.list td.count_list
+{
+    border: none;
+}
+.date-filter
+{
+    margin-bottom: 6px;
+}
+.statistics:hover
+{
+    background: #AEE9FF;
+}
+/*===========list userequipe ========*/
+.tab-user-groups td,.add-user,.add_in_group,.variable,.add-elemnet
+{
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #dddddd;
+    font-size: 12px;
+    padding: 5px;
+    width: 145px;
+    cursor: pointer;
+}
+.add-elemnet
+{
+    width: 225px;
+}
+.variable
+{
+    width: 180px;
+}
+.add-user,.add_in_group
+{
+    width: auto;
+    width: 300px;
+}
+.tab-add
+{
+    border-collapse: collapse;
+}
+/*==========table-step*==========*/
+.btn-step
+{
+    position: absolute;
+    bottom: 4px;
+}
+.step-table
+{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.step-table tr td table
+{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+.step-table td
+{
+    width: 25%;
+    vertical-align: top;
+    border: 1px solid #ddd;
+   
+}
+.step-table td h4
+{
+    padding: 4px;
+}
+/*==========table-account===========*/
+.table-account
+{
+    margin-bottom: 8px;
+}
+.table-account td,
+.table-account th
+{
+    border: none;
+    width: 14%;
+}
+.last-table-account td, 
+.last-table-account th
+{
+    border: none;
+    width: 216px;
+}
+
+.color-th
+{
+    line-height: 16px;
+}
+.table-account .list-header th
+{
+    padding: 5px;
+}
+/*======List Filter =======*/
+.filter {
+    float: left;
+    margin: 8px 8px 4px 0;
+}
+.filter-content
+{
+    background: #7ABCDD;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    border-radius: 3px;
+    padding: 6px;
+    cursor: pointer;
+}
+/*=========pager======*/
+.pager
+{
+    background: #5797de;
+    padding: 8px;
+}
+.pager a
+{
+    color: #fff;
+    margin-left: 3px;
+    padding: 5px;
+    text-decoration: none;
+}
+.pager span.active
+{
+    background: none repeat scroll 0 0 #7abcdd;
+    padding: 5px;
+}
+.pager a:hover
+{
+    background: none repeat scroll 0 0 #7abcdd;
+}
+/*=======formulair==========*/
+.tab-form,.tab-form-style,.tab-form-2,
+.tab-user-groups,.form-full-style
+{
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #5b99bf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    display: block;
+}
+.tab-form-2
+{
+  
+    float: left;
+    vertical-align: top;
+      margin: 10px;  
+      width: 48%;
+      height: 130px;
+}
+.form-full-style
+{
+    width: 98%;
+        
+        
+}
+.tab-form tr,
+.form-line
+{
+    float: left;
+    width: 50%; 
+    margin: 3px 0;
+}
+
+.tab-form tr.content
+{
+    display: table-cell;
+    float: left;
+    width: 66%;
+}
+.tab-form tr.dict
+{
+    width: 34%;
+}
+
+.tab-dict tr
+{
+    width: 100%;
+}
+
+.tab-form .input-text, input,
+textarea
+{
+    border: 1px solid #ddd;    
+}
+.tab-form .input-text:focus,input:focus
+{
+    border: #7abcdd 1px solid;
+}
+.tab-form tr.full-with,
+textarea,.Survey-Answer
+{
+    width: 100%;
+}
+
+.label,label,.label-std
+{
+    color: #333;
+    display: table-cell;
+    font-size: 13px;
+    min-width: 158px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: normal;
+}
+.label-std
+{
+    float: left;
+    min-width:100px; 
+}
+label
+{
+    display: inline-block; 
+}
+#error,
+.error_form,
+.error-form,
+.errors-error,
+.form-errors
+
+{
+
+    color: red;
+    font-weight: bold;
+ 
+}
+.body-email
+{
+    width: 100%;
+}
+.editor-body
+{
+    width: 86%;
+}
+/*========calander list ===========*/
+.tab-calendar_m
+{
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+.header-day td
+{
+    background: none repeat scroll 0 0 #f2f2f2;
+    border: medium none;
+    padding: 10px;
+    text-align: center;
+}
+.tab-calendar_m td,
+.tab-calendar_m th,
+.tab-calendar-d td,
+.tab-calendar-d th
+{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.tab-calendar_m th.day
+{
+    width: 14%;
+}
+.list-calendar > td
+{
+    padding: 10px;  
+}
+.list-calendar-day td.metting
+{
+    width: 100%;
+}
+.meetting-block
+{
+    background: none repeat scroll 0 0 rgb(169, 228, 247);
+    border-radius: 2px;
+    line-height: 14px;
+    padding: 4px;
+    box-shadow: 1px 1px 0px gray;
+    margin-left: 3px;
+    max-height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+
+}
+.meetting-block span.b-color
+{
+    display:block;
+    height:15px;
+    width: 15px;
+    float: left;
+    margin-right: 10px;
+}
+.week-number,.number-meeting
+{
+    background: none repeat scroll 0 0 #5090d7;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+    border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -ms-border-radius: 4px 4px 0px 0px;
+    -e-border-radius: 4px 4px 0px 0px;
+}
+.number-meeting
+{
+    font-size: 14px;
+    padding: 0px 0px 8px 0px;
+    border-radius: 0px;
+}
+.date-input input
+{
+    border: #ddd solid 1px;
+    margin-left: 10px;
+}
+.date-input
+{
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+.filter-calendar
+{
+    margin: 0 0 0 20px;
+    vertical-align: bottom;
+}
+
+.small-meeting
+{
+    width:17px; 
+}
+.md-meeting
+{
+    width:60px;
+}
+.day
+{
+    text-align: center;
+    font-weight: bold;
+}
+/*======formulaire respensive==========*/
+
+@media screen and (max-width:750px)
+{
+    .label
+    {
+        display: inline-block;
+    }
+    .tab-form .input-text, input,
+    .body-email textarea
+    {
+         width: 213px;
+    }
+    .tab-form tr
+    {
+        min-width: 100%;
+    }
+    
+  
+}
+@media screen and (max-width:450px)
+{
+    .site
+    {
+        display:block;
+        width: 100%;
+    }
+   
+}
+#info
+{
+    color: #67b168;
+    font-weight: bold;
+}
+/*=====INSTALLATION====*/
+.Installation
+{
+    border: 1px solid #ddd;
+    width: 99%;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.Installation span.value
+{
+    font-weight: bold;
+}
+.Installation span.info
+{
+     font-weight: bold;
+     color: #5090d7;
+     font-size: 14px;
+}
+/*=======formulaire dynam======*/
+.Survey-Answer
+{
+    padding: 5px 0;
+    vertical-align: bottom;
+}
+.Survey-Answer input
+{
+    margin: 4px;
+}
+
+.Answer-info label,
+.Answer-info-text label
+{
+    margin: 4px;
+    min-width: auto;
+    display: inline-block;
+}
+

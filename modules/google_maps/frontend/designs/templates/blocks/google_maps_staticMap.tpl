@@ -1,0 +1,1 @@
+<img src="http://maps.googleapis.com/maps/api/staticmap?{$options}"/>

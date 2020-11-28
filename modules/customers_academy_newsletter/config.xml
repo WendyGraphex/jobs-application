@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>customer academy newsletter</title>
+    <type>academy</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manages academy newsletters</description>
+    <author>F.Mallet</author>
+</module>

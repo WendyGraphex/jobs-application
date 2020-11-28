@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>facebook share</title>
+    <type>facebook</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the facebook share actions.</description>
+    <author>F.Mallet</author>    
+</module> 

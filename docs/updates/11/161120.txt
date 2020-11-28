@@ -1,0 +1,16 @@
+=0===================================================
+- nodejs
+- Freelancer
+    - remember me
+- Employer
+    - remember me
+=1===================================================
+Employee
+- My page return on Dashboard
+- lock/unlock 
+- profile : fields empty
+- forgot message email modified
+Employer
+- My page return on Dashboard
+- lock/unlock 
+- forgot message email modified

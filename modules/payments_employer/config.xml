@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>payments employers</title>
+    <type>payments</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the employers payments.</description>
+    <author>F.Mallet</author>
+    <dependencies>
+        <module>employers</module>
+        <module>payments</module>
+    </dependencies>
+</module> 

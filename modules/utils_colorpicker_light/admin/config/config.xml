@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>color pickers</title>
+    <type>utils</type> 
+    <version>1.0</version>
+    <logo></logo>
+    <description>this module manage color pickers</description>
+    <author>F.Mallet</author>  
+</module>

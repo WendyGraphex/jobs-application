@@ -1,0 +1,1 @@
+<li {if !$user->isAuthenticated() || !$user->isEventUser()}style="display:none"{/if} class="nav-item" id="Event-login-link"><a href="{link_i18n('site_event_user_account')}" class="nav-link">{__('My account')}</a></li>

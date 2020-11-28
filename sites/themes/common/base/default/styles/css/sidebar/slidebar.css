@@ -1,0 +1,54 @@
+.sidebar-btn {
+    display: inline-block;
+    
+    width: 16px;
+      cursor: pointer;
+
+      top: 0px;
+      bottom: 0px;
+      
+}span.sidebar-btn {
+    border: 1px solid #ddd;
+     background: #fff none repeat scroll 0 0;    
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sidebar-content-ctn {
+ 
+    right: -344px;
+    top: 0;
+    width: 362px;
+    transition:  0.5s;
+    bottom: 0px;
+    position: absolute;
+     z-index: 2240;
+   
+    
+}
+.sidebar-btn,.sidebar-content
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.sidebar-content {
+    width: 88%;
+    background: #fff;
+    height: 100%;
+    -webkit-box-shadow: -1px 1px 13px -1px rgba(125,125,125,1);
+-moz-box-shadow: -1px 1px 13px -1px rgba(125,125,125,1);
+box-shadow: -1px 1px 13px -1px rgba(125,125,125,1);
+ padding: 10px;
+   
+}
+.sidebar-content-visible
+{
+     right: 0px;
+     
+ 
+}
+
+#SideBar-Manager
+{
+    position: fixed;    
+}

@@ -1,0 +1,1 @@
+<a target="_blank" href="{url_to('sales_billing',['action'=>'ExportPdf'])}?payment={$item->getPayment()->get('reference')}" class="SaleBilling btn btn-success" id="{$item->get('id')}" title="{__('Billing')}"><i class="fa fa-file" style="font-size: 13px;"></i> {__('Billing')}</a>

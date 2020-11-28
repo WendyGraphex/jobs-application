@@ -1,0 +1,35 @@
+https://www.graphextech.com/payments/paypal/success?paymentId=PAYID-L6XPEOA72X975104K328121P&token=EC-81F51704JT150860R&PayerID=E6QMABKJYEJ3A
+
+
+https://www.graphextech.com/payments/paypal/Cancel?token=EC-2FC830762S5750135
+
+
+http://www.project55.net/payments/paypal/success?paymentId=PAYID-L6XPEOA72X975104K328121P&token=EC-81F51704JT150860R&PayerID=SSZDVUZNYP32G
+
+<div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '1'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>

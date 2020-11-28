@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>google map</title>
+    <type>utils</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>google map</description>
+    <author>F.Mallet</author>
+</module>

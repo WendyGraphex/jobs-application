@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>customers academy student</title>
+    <type>customers</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the customers academy student actions.</description>
+    <author>F.Mallet</author>    
+</module> 

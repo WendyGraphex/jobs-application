@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>Employees Contact</title>
+    <type>employees</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the employees contact actions.</description>
+    <author>F.Mallet</author>    
+</module> 

@@ -1,0 +1,39 @@
+https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/sns-examples.html
+https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/sns-examples-sending-sms.html
+https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/getting-started_installation.html
+
+https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-user
+
+https://gauntface.github.io/simple-push-demo/
+
+
+{
+  "Version": "2008-10-17",
+  "Id": "__default_policy_ID",
+  "Statement": [
+    {
+      "Sid": "__default_statement_ID",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": [
+        "SNS:GetTopicAttributes",
+        "SNS:SetTopicAttributes",
+        "SNS:AddPermission",
+        "SNS:RemovePermission",
+        "SNS:DeleteTopic",
+        "SNS:Subscribe",
+        "SNS:ListSubscriptionsByTopic",
+        "SNS:Publish",
+        "SNS:Receive"
+      ],
+      "Resource": "arn:aws:sns:us-east-2:882452144365:ewebsolutionskech",
+      "Condition": {
+        "StringEquals": {
+          "AWS:SourceOwner": "882452144365"
+        }
+      }
+    }
+  ]
+}

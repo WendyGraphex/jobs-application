@@ -1,0 +1,1 @@
+<span>Project: {$project} IP:{$ip}</span>

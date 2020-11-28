@@ -1,0 +1,4 @@
+https://developer.westernunion.com/api-money-transfer.html
+https://developer.westernunion.com/api-partner-payments.html
+
+https://developer.westernunion.com/apps/index.html#/all?apiCategory=Partner%20Payments

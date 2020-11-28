@@ -1,0 +1,2 @@
+ALTER TABLE `t_emailer_spooler_scheduler_email_sent` ADD `sent_at` TIMESTAMP NULL DEFAULT NULL AFTER `is_sent`;
+ALTER TABLE `t_emailer_spooler` ADD `sent_at` TIMESTAMP NULL DEFAULT NULL AFTER `is_sent`;

@@ -1,0 +1,1 @@
+<button class="btn btn-primary">{__('Book event')}</button>

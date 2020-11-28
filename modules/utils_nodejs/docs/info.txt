@@ -1,0 +1,25 @@
+https://shubhamgarg.com/using-secure-websockets-wss-with-nodejs.html
+https://stackoverflow.com/questions/54063255/simple-secure-websocket-wss-chat-using-node-js-server-and-jquery-client
+
+import * as express from "express"
+import * as https from "https"
+var privateKey = fs.readFileSync('sslcert/key.pem', 'utf8');
+var certificate = fs.readFileSync('sslcert/cert.pem', 'utf8');
+var credentials = {key: privateKey, cert: certificate};
+const server = https.createServer(credentials,app);
+//initialize the WebSocket server instance
+const wss = new WebSocket.Server({ server });
+server.listen(8443);
+
+
+
+https://stackabuse.com/command-line-arguments-in-node-js/
+
+
+
+
+nodejs /var/www/html/graphex/www/modules/utils_nodejs/common/nodeJs/server.js --port=6969 --protocol=https --env=prod --site=site_graphex --debug=0
+
+
+amazon :
+ nodejs /var/www/html/modules/utils_nodejs/common/nodeJs/server.js --port=6969 --protocol=https --env=prod --site=site_graphex --debug=0

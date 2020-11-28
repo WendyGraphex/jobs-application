@@ -1,0 +1,7 @@
+=0===================================================
+
+- unlock problem improvement - employee/employer
+    case unconnected -> login page
+- unlock page error
+- home gallery - change top
+- settings lock time - employee/employer

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>site events</title>
+    <type>event</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the site events actions.</description>
+    <author>F.Mallet</author>    
+</module> 

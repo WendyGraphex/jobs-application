@@ -1,0 +1,1 @@
+<button class="btn btn-primary">{__('Post event')}</button>

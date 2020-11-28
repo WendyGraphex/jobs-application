@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>sms box callback</title>
+    <type>services</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the sms box callback.</description>
+    <author>F.Mallet</author>
+</module> 

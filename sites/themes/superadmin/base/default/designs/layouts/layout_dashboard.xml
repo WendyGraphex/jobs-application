@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <reference name="top">
+        <block name="/languages/list"/>         
+    </reference>
+    <reference name="user">
+        <block name="/users_guard/user"/>  
+        <block name="/users_guard/logout"/>
+    </reference>
+    <reference name="bottom">
+      
+    </reference> 
+</layout>
+

@@ -1,0 +1,1 @@
+<a target="_blank" href="{url_to('sales_billing',['action'=>'GeneratePdf'])}?payment={$item->get('id')}" class="SaleBilling list-action" id="{$item->get('id')}" {if !$item->isAccepted()}style="display:none"{/if} title="{__('Billing')}"><i class="fa fa-file"></i></a>

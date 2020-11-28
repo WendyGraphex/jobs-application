@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <reference name="top">
+    <!--  <block name="/shops_currency/selectListCurrency"/> -->
+      <block  name="/languages/list"/>
+      <block name="/customers/authentified"/>
+      <block name="/search_engine/searchRequest"/>
+      <block name="/CMS_pages/menu" parent="root"/>
+    </reference>   
+    <reference name="left">
+        <block name="/products_manufacturers/list"/>
+        <block name="/products_suppliers/list"/>
+        <block name="/paiements/list"/>
+    </reference>
+    <reference name="right">  
+        <block name="/customers/mySpaceDisplay"/>       
+    </reference>
+    <reference name="bottom">
+    </reference>   
+    <reference name="tracking">
+    </reference>  
+</layout>
+

@@ -1,0 +1,9 @@
+SSLCertificateFile /etc/apache2/ssl/gprahextech.crt
+
+#   Server Private Key:
+#   If the key is not combined with the certificate, use this
+#   directive to point at the key file.  Keep in mind that if
+#   you've both a RSA and a DSA private key you can configure
+#   both in parallel (to also allow the use of DSA ciphers, etc.)
+SSLCertificateKeyFile /etc/apache2/ssl/graphextech.key
+

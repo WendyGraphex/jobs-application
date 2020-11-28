@@ -1,0 +1,1 @@
+ALTER TABLE `t_emailer_spooler_scheduler` CHANGE `number_of_emails` `number_of_emails` INT(11) UNSIGNED NULL DEFAULT NULL;

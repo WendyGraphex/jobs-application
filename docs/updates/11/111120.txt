@@ -1,0 +1,8 @@
+- zelle module de paiement employer/credit freelancer
+- alerts tpl employer/freelancer
+- responsive cms pages
+- invitation employee/employer
+- favicon
+- emails (nous devons tous les retester > 80 )
+- level database employee/employer
+- diploma databse employee/employer

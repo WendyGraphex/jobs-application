@@ -1,0 +1,12 @@
+tmp/
+nbproject/
+.idea/
+#/sites/ftp/*
+#config/superadmin.php
+./cron
+cron.bat
+.htaccess
+log/*
+!/log/.htaccess
+/sites/site_graphex
+!/.htaccess

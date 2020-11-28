@@ -1,0 +1,1 @@
+a:1:{s:12:"Registration";a:2:{s:10:"validators";a:1:{s:5:"siret";a:3:{s:4:"name";s:17:"mfValidatorString";s:5:"title";s:7:"patente";s:7:"options";a:1:{s:10:"max_length";i:10;}}}s:7:"invoice";a:1:{s:5:"siret";s:7:"patente";}}}

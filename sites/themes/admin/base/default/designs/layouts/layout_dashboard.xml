@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <reference name="top">        
+    </reference>
+    
+    <reference name="bottom">
+     <!--   <block name="/default/stats_sql"/> -->
+    </reference> 
+</layout>
+

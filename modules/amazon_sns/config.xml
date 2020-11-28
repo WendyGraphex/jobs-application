@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>amazon sns api</title>
+    <type>utils</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the amazon sns api actions.</description>
+    <author>F.Mallet</author>    
+</module> 

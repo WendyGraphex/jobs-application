@@ -1,0 +1,1 @@
+test email send from {$host}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>site guestbook</title>
+    <type>site</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the site guestbook actions.</description>
+    <author>F.Mallet</author>    
+</module> 

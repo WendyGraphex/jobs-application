@@ -1,0 +1,1 @@
+{__('Gallery is invalid.')}

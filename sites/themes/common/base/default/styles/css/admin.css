@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 avr. 2019, 16:09:53
+    Author     : Houider Walid
+*/
+
+/* Admin */
+/* Modules Header */
+
+.admin-header-container{
+    width: 100%; padding-bottom:10px; margin: 0;
+}
+.admin-header-container > div:first-of-type{
+    padding-top: 20px; padding-left: 0;
+}
+.admin-big-text, .admin-header-big-text{
+    color: red; text-transform: uppercase; color: rgb(101, 109, 120); font-family: Lato, Calibri, Arial, sans-serif; font-size: 18px; font-weight: 600;
+}
+.admin-header-big-text{
+    display: inline; margin-right: 5px; float: left;
+}
+.admin-header-small-text{
+    display: inline; color: rgb(172, 181, 190); font-family: Lato, Calibri, Arial, sans-serif; font-size: 14px; font-weight: 300;
+}
+.admin-header-button{
+    border-radius: 0; color: white !important; float: right; margin-top: 10px; margin-left: 10px;
+}
+.admin-header-button i{
+    margin-right: 10px;
+}
+.admin-header-button{
+    border-radius: 0; color: white; float: right; margin-top: 10px; margin-left: 10px;
+}
+
+/* autre */
+
+.cms-table-th{
+    background-color: #36bc9a;
+    color: white;
+}
+.icon-font{
+    font-size: 14px; margin-right: 5px;
+}
+.tab-button{
+    float: right; background-color: #c8c8c8; border-radius: 0; border: 0; color: black;
+}
+.fa-sort-up, .fa-sort-down{
+    color: white;
+}
+.filterbtn, .initbtn{
+    float: right; background-color: #c8c8c8; color: black; border-radius: 0; border: 0;
+}
+.initbtn{
+    margin-right: 5px;
+}
+.tablewhiteback{
+    background-color: white; 
+    padding: 5px;
+}
+
+/* hover */
+
+
+/* breadcrumb*/
+
+.breadcrumb-title{
+    background-color: white; height: 40px; padding-left: 20px; display: table; width: 100%; text-align: left; margin-bottom: 15px;
+}
+.breadcrumb-title p{
+    display: table-cell; vertical-align: middle; font-size: 0.7em; color: #a9b2bd;
+}
+

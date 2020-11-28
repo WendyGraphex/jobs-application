@@ -1,0 +1,7 @@
+string(200) "{"name":"AUTHORIZATION_ERROR","message":"Authorization error occurred.","debug_id":"20fde83ab0df9","information_link":"https://developer.paypal.com/docs/api/payments.payouts-batch/#errors","links":[]}"
+string(97) "Got Http response code 403 when accessing https://api.paypal.com/v1/payments/payouts?sync_mode=0."
+
+
+
+string(97) "Got Http response code 403 when accessing https://api.paypal.com/v1/payments/payouts?sync_mode=0." 
+string(200) "{"name":"AUTHORIZATION_ERROR","message":"Authorization error occurred.","debug_id":"f4d3ce8c39709","information_link":"https://developer.paypal.com/docs/api/payments.payouts-batch/#errors","links":[]}" 

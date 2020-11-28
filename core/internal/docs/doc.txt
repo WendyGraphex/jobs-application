@@ -1,0 +1,1 @@
+php mfsys generate:culture --culture=be

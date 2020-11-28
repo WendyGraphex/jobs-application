@@ -1,0 +1,1 @@
+<li {if !$user->isAuthenticated() || !$user->isEmployee()}style="display:none"{/if} class="nav-item" id="Employee-login-link" ><a href="{link_i18n('employees_account')}" class="nav-link">{__('My account')}</a></li>

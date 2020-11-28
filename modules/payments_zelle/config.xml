@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>payments zelle</title>
+    <type>payments</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage payments zelle actions.</description>
+    <author>F.Mallet</author>      
+    <dependencies>
+        <module>payments</module>       
+    </dependencies>
+</module> 

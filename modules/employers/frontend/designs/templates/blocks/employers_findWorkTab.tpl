@@ -1,0 +1,1 @@
+ <a class="nav-link mr-md-1 active show" id="v-pills-4-tab" style="padding: 10px 32px !important;" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="true">{__('Find a Job')}</a>

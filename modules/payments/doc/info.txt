@@ -1,0 +1,11 @@
+Liste des paiements (template)
+==============================
+{foreach $paiements as $paiement}
+{component name="/paiements_[$paiement->get('name')]/informations"}
+{/foreach}
+
+model - nodePosition
+    t_paiements
+         id
+         module
+         position

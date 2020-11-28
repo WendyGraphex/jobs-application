@@ -1,0 +1,6 @@
+https://www.graphextech.com/linkedin/oauth/callback/employee
+https://www.graphextech.com/linkedin/oauth/callback/employer
+https://www.graphextech.com/linkedin/oauth/callback/student
+https://www.graphextech.com/linkedin/oauth/callback/teacher
+https://www.graphextech.com/linkedin/oauth/callback/eventuser
+https://www.graphextech.com/linkedin/oauth/callback/freelancer

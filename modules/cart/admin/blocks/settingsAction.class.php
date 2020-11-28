@@ -1,0 +1,13 @@
+<?php
+
+class cart_settingsActionComponent extends mfActionComponent {
+    
+    
+    function execute(mfWebRequest $request)
+    {       
+        
+    } 
+    
+   
+}
+

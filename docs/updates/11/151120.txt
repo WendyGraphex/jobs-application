@@ -1,0 +1,15 @@
+- Freelancer
+    - completion / MyProfile
+        - all errors on form
+================================================================
+- Freelancer
+    - experience in order by position
+    - default language - all languages
+    - my page
+    - diploma no max year
+    - text validation dialog
+
+- Employer
+    - text validation dialog
+    - default language - all languages
+    - my page

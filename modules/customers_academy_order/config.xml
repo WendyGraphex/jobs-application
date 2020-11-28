@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>customers academy order</title>
+    <type>academy</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the customers academy order actions.</description>
+    <author>F.Mallet</author>    
+</module> 

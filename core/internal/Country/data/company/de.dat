@@ -1,0 +1,1 @@
+a:1:{s:12:"Registration";a:2:{s:10:"validators";a:1:{s:3:"tva";a:1:{s:4:"name";s:14:"mfValidatorTVA";}}s:7:"invoice";a:1:{i:0;s:3:"tva";}}}

@@ -1,0 +1,1 @@
+{include file="./../employers_ajaxListPartialAdverts.tpl"}          

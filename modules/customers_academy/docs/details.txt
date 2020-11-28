@@ -1,0 +1,16 @@
+profile
+    student
+    teacher
+- best seller popular
+- notaion student
+- ha de cours en ligne
+- durée de cours
+- upload
+- 3 mois max par contenu
+- nb de views / telechargement
+- pdf /image / video
+
+Adder
+- questionnaire 
+- video fin => certificat
+- questionnaire QCM coef min dynamique 

@@ -1,0 +1,6 @@
+"[0] no result |[1] one result |(1,Inf] %s results";"[0] aucun résultat |[1] un résultat |(1,Inf] %s résultats"
+"YES";"oui"
+"NO";"non"
+"new password";"nouveau mot de passe"
+"Create password for user [%s]";"Création du mot de passe pour l'utilisateur [%s]"
+"Duplicates have been removed.";"Les doublons ont été supprimés."

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>employers messager</title>
+    <type>employers</type> 
+    <version>1.0</version>
+    <logo></logo>
+    <description>this module manage the employers messager.</description>
+    <author>F.Mallet</author>
+</module> 

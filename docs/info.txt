@@ -1,0 +1,5 @@
+ok - remove DB
+ok-  install employer / employee invitation
+ok - ALTER TABLE `t_project` CHANGE `status` `status` ENUM('ACTIVE','DELETE','CLOSE','FINISH') CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT 'ACTIVE'; 
+ok - blog
+ok - academy in progress 

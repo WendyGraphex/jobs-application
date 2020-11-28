@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <reference name="top">
+        <block name="/languages/list"/>     
+        <reference name="user"/> 
+    </reference>
+    <reference name="user">
+        <block name="/userGuard/user"/>  
+        <block name="/userGuard/logout"/>
+    </reference>
+    <reference name="site">        
+        <block name="/site/info"/>      
+        <block name="/site/sublink"/>
+    </reference>
+    <reference name="bottom">
+        <block name="/default/stats_sql"/>
+    </reference> 
+</layout>
+
+<!-- 
+return array(
+    "top"=>array( 
+                   array("type"=>"block","name"=>"/languages/list"),
+                   array("type"=>"reference","name"=>"user"),
+                ),   
+                   
+    "user"=>array(
+                   array("type"=>"block","name"=>"/userGuard/user"),
+                   array("type"=>"block","name"=>"/userGuard/logout"),
+                 ),
+                   
+); -->

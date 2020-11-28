@@ -1,0 +1,1 @@
+<a href="javascript:void(0);" data-url="{$item_i18n->get('url')}" data-lang="{$item_i18n->get('lang')}" class="ShareAdvertContact"><i class="Social-gmail mdi mdi-email"></i></a>

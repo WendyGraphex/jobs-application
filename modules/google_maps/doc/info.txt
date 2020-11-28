@@ -1,0 +1,2 @@
+https://developers.google.com/maps/documentation/staticmaps/index#MapTypes
+https://developers.google.com/maps/documentation/javascript/basics

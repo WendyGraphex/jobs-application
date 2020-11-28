@@ -1,0 +1,5 @@
+contact@ewebsolutions.fr
+antromane#2020
+
+
+https://stripe.com/docs/development/quickstart#api-library

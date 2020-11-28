@@ -1,0 +1,28 @@
+- creacom
+	- serveur
+	- facture
+- eweb- seo
+	- page analyser
+- node.js
+	- message
+- spicepot
+	ok - google analytics
+	ok - seo tools	
+	- asma - file
+	>- home page
+	upload - page product
+	- page categorie
+- graphex
+
+- green invest
+
+- eweb - sales/fact
+	- ventes / achats / factures ...	
+- eweb - rh
+	- salaires	
+- eweb - core
+	- mfFile oumaima
+	- utils lib
+- eweb - services
+	- applications
+	- backup manager

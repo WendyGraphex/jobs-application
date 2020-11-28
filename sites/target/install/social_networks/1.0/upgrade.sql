@@ -1,0 +1,1 @@
+ALTER TABLE `t_social_networks` ADD `awe` VARCHAR(40) NOT NULL AFTER `name`;

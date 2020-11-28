@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>gallery</title>
+    <type>gallery</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manages the gallery.</description>
+    <author>F.Mallet</author>   
+</module>

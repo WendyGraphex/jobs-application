@@ -1,0 +1,1 @@
+{include file="./tpl/list_advert_company_`$tpl`.tpl"}
