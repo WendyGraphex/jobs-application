@@ -1,0 +1,13 @@
+requirements
+- php 5.6.40
+- install loader ioncube
+- copy /sites/target to /sites/site_graphex
+- /config/config.php 
+          'host' => 'www.project55.net'   
+- /config/superadmin.php
+    "prod" => database settings
+- database
+    t_sites set :
+    - host www.project55.net
+    - database settings
+    
